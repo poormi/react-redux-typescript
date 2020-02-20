@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"noImplicityAny": true,
+		"module": "commonjs",
+		"target": "es6",
+		"jsx": "react",
+		"allowSyntheticDefaultImports": true,
+		"lib": [
+			"es2016",
+			"es2017",
+			"es2018",
+			"esnext",
+			"dom",
+			"dom.iterable",
+			"es2015.core",
+			"es2015.collection",
+			"es2015.generator",
+			"es2015.iterable",
+			"es2015.promise",
+			"es2016.array.include",
+			"es2017.object",
+			"es2017.string",
+			"es2018.promise",
+			"esnext.array",
+		]
+	},
+	"include": [
+		"./src/**/*"
+	]
+}
